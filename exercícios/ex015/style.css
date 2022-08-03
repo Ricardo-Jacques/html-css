@@ -1,0 +1,13 @@
+@charset "UTF-8"; 
+/*Regra para evitar problemas com acentuação.*/
+
+body {
+    background-color: #ffffff;
+    font-family: 'Times New Roman', Times, serif;
+}
+h1{
+    background-color: #446FFC;
+}
+h2{
+    background-color: #3A5ED6;
+}

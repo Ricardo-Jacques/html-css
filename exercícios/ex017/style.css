@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2em;
+    font-weight: bolder;
+    font-style: normal;
+}
+
+h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5em;
+    font-weight: bold;
+    font-style: normal;
+}
+
+body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em;
+    font-weight: normal;
+    font-style: italic;
+}

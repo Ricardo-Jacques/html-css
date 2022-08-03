@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Utilizando pseudo-classes e pseudo-elementos</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif
+        }
+
+        div {
+            display: inline-block;
+            text-align: center;
+            font-size: 2em;
+            height: 250px;
+            width: 250px;
+            background-color: grey;
+        }
+        
+        div:hover {
+            background-color: rgb(56, 56, 255);
+        }
+
+        div > p {
+            display: none;
+        }
+
+        div:hover > p {
+            display: block;
+            color: red;
+        }
+
+        a:visited {
+            color: green;
+        }
+
+        a:active {
+            color: red;
+            background-color: coral;
+        }
+
+        a::after {
+            content: "[link]";
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Testando pseudo-classes</h1>
+    <div>1</div>
+    <div>2</div>
+    <div>3
+        <p>Texto secreto!</p>
+    </div>
+    <h1>Sites para fazer compras:</h1>
+    <ul>
+        <li><a href="https://www.kabum.com.br/" target="_blank">Kabum</a></li>
+        <li><a href="https://www.amazon.com.br/" target="_blank">Amazon</a></li>
+        <li><a href="https://www.mercadolivre.com.br/" target="_blank">Mercado livre</a></li>
+    </ul>
+</body>
+</html>
